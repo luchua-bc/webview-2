@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<name>AppYahoo</name>
+<description>
+    A sample webview app.
+</description>
+<author email="dev@cordova.apache.org" href="http://cordova.io">
+    Me
+</author>
+<content src="index.html" />
+<access origin="*" />
+<preference name="phonegap-version" value="1.2.3" />
+<gap:plugin name="org.apache.cordova.file" />
+
+</widget>
