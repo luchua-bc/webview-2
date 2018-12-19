@@ -27,16 +27,17 @@ public class MainActivity extends Activity {
 
         mWebView = (WebView) findViewById(R.id.activity_main_webview);
 
-        // Force links and redirects to open in the WebView instead of in a browser
-        mWebView.setWebViewClient(new WebViewClient());
-
         // Enable Javascript
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
+        // Force links and redirects to open in the WebView instead of in a browser
+        //mWebView.setWebViewClient(new WebViewClient());
+
+
         // REMOTE RESOURCE
          mWebView.loadUrl("https://yahoo.com");
-         //mWebView.setWebViewClient(new MyWebViewClient());
+         mWebView.setWebViewClient(new MyWebViewClient());
 
         // LOCAL RESOURCE
         // mWebView.loadUrl("file:///android_asset/index.html");
