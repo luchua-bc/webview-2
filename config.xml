@@ -16,6 +16,4 @@
 <config-file target="AndroidManifest.xml" parent="/app/src/main">
 </config-file>
 
-<plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />
-
 </widget>
