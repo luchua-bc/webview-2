@@ -32,12 +32,11 @@ public class MainActivity extends Activity {
         webSettings.setJavaScriptEnabled(true);
 
         // Force links and redirects to open in the WebView instead of in a browser
-        //mWebView.setWebViewClient(new WebViewClient());
-
+        mWebView.setWebViewClient(new WebViewClient());
 
         // REMOTE RESOURCE
-         mWebView.loadUrl("https://yahoo.com");
-         mWebView.setWebViewClient(new MyWebViewClient());
+        // mWebView.loadUrl("https://yahoo.com");
+        // mWebView.setWebViewClient(new MyWebViewClient());
 
         // LOCAL RESOURCE
         // mWebView.loadUrl("file:///android_asset/index.html");
