@@ -12,5 +12,9 @@
 
 <preference name="Fullscreen" value="false" />
 <preference name="Orientation" value="portrait" />
-    
+
+<config-file target="AndroidManifest.xml" parent="/app/src/main">
+    <uses-permission android:name="android.permission.CAMERA"/>
+</config-file>
+
 </widget>
